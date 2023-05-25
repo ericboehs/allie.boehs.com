@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'boehs.com',
+  title: "Allie's Site",
   tagline: '',
   // favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://boehs.com/',
+  url: 'https://allie.boehs.com/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ericboehs', // Usually your GitHub org/user name.
-  projectName: 'boehs.com', // Usually your repo name.
+  projectName: 'allie.boehs.com', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -42,7 +42,6 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/ericboehs/boehs.com/tree/master/',
           showLastUpdateTime: true,
         },
         blog: {
@@ -52,7 +51,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
-          //   'https://github.com/ericboehs/boehs.com/tree/master//',
+          //   'https://github.com/ericboehs/allie.boehs.com/tree/master//',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'boehs.com',
+        title: "Allie's Site",
         // logo: {
         //   alt: 'My Site Logo',
         //   src: 'img/logo.svg',
@@ -82,7 +81,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/blog/archive', label: 'Archive', position: 'left'},
           // {
-          //   href: 'https://github.com/ericboehs/boehs.com',
+          //   href: 'https://github.com/ericboehs/allie.boehs.com',
           //   label: 'GitHub',
           //   position: 'right',
           // },
